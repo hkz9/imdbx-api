@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "name": "imdbx-api",
+  "version": "2.1.0",
+  "description": "Serverless IMDb API powered by Cloudflare Workers - Fixed null/undefined errors and optimized for better performance",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev src/index.js --port 3000",
+    "publish": "wrangler deploy src/index.js",
+    "test": "jest",
+    "start": "wrangler dev src/index.js --port 3000"
+  },
+  "author": "masudranaxpert <masudranaxpert@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "jest": "^28.1.0",
+    "wrangler": "^3.3.0"
+  },
+  "dependencies": {
+    "dom-parser": "^0.1.6",
+    "hono": "^1.4.1",
+    "html-entities": "^2.3.3",
+    "qs": "^6.11.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masudranaxpert/imdb-api.git"
+  },
+  "keywords": [
+    "imdb",
+    "imdb-api",
+    "movie-list",
+    "cloudflare-worker",
+    "cloudflare-workers",
+    "serverless-api",
+    "movie-database"
+  ],
+  "bugs": {
+    "url": "https://github.com/masudranaxpert/imdb-api/issues"
+  },
+  "homepage": "https://github.com/masudranaxpert/imdb-api#readme"
+}

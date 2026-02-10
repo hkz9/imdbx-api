@@ -1,0 +1,5 @@
+name = "imdbx-api"
+main = "src/index.js"
+
+workers_dev = true
+compatibility_date = "2025-06-01"
